@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q3 Drill 1</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/736x/c8/8d/bd/c88dbdbcb9eb03c2e7ee5d6deca75a5d.jpg');
+            font-family: Arial, sans-serif;
+        }
+        .calculator {
+            max-width: 400px;
+            margin: 60px auto;
+            padding: 25px;
+            background: rgb(184, 192, 232);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .result {
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="calculator">
+    <h1>Basic Calculator</h1>
+
+    <p class="text-center">
+        Solve for this : 67 + 67= ?
+    </p>
+ 
+    <div class="result" id="output"></div>
+    
+    <!--
+    <button type="submit" class="btn btn-primary" onclick="alert (num3);">Solve</button>
+    <button type="submit" class="btn btn-primary" onclick="document.write(num3);">Solve</button>
+    -->
+
+   <button type="submit" class="btn btn-primary" onclick="document.getElementById('result').innerHTML= num3;">Solve</button>
+   <p class="container bg-primary text-center" id="result"></p>
+
+</div>
+
+
+<script>
+ 
+  var h = "Basic Calculator"; //assign a value for h
+  var num3 = 134; //assign a value for num3
+;
+  document.getElementById('head3').innerHTML = h;
+
+
+</script>
+
+</body>
+</html>
